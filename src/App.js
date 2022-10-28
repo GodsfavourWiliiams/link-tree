@@ -7,7 +7,7 @@ import LinkTree from './component/linkItem/linkItem';
 function App() {
   
   return (
-    <div className="">
+    <div className="px-3">
       <Header/>
        <LinkTree/>
       <Footer/>
