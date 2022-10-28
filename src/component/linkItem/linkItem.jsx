@@ -6,7 +6,7 @@ import Github from "../assets/github.svg";
 
 const Links = () => {
   return (
-    <div className="">
+    <div className="my-10 max-w-[1152px] mx-auto">
       {LinkData.map((link, index) => {
         return (
           <div key={index} className=" flex flex-col py-[8px] ruonded-[8px]">
